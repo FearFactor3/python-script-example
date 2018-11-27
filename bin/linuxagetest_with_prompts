@@ -1,0 +1,9 @@
+#!/bin/python
+
+first_name = str(raw_input("What is your first name? "))
+last_name = str(raw_input("What is your last name? "))
+birth_date = str(raw_input("What is your birthdate? "))
+age = int(raw_input("What is your age? "))
+
+print("My name is %s %s." % (first_name, last_name))
+print("I was born on %s and I'm %s years old." % (birth_date, age))
